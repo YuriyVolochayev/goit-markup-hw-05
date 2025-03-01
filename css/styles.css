@@ -645,3 +645,26 @@ a {
 .modal-form-cont-checkbox {
   margin-bottom: 24px;
 }
+
+.modal-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin: 0 auto;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  border: none;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
