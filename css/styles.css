@@ -610,3 +610,38 @@ a {
 .modal-textarea:focus {
   border-color: #4d5ae5;
 }
+
+.custom-checkbox {
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin-right: 8px;
+}
+
+.label-checkbox {
+  cursor: pointer;
+  font: 400 12px / 117% 'Roboto', sans-serif;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  fill: transparent;
+}
+.label-checkbox a {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+
+.checkbox:checked + .label-checkbox .custom-checkbox {
+  background-color: #404bbf;
+  fill: #fff;
+  border: none;
+}
+
+.modal-form-cont-checkbox {
+  margin-bottom: 24px;
+}
